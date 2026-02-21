@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">demoBankingAppX</string>
+
+    <string name="app_logo">App Logo</string>
+
+    <!-- Login Screen -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+
+    <!-- Registration Screen -->
+    <string name="create_account">Create Account</string>
+    <string name="registration_subtitle">Join us today</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_role">Select Account Type</string>
+    <string name="customer">Customer Account</string>
+    <string name="admin">Administrator Account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Menu Items -->
+    <string name="pending_approvals">Pending Approvals</string>
+    <string name="pending_loans">Pending Loans</string>
+    <string name="all_customers">All Customers</string>
+    <string name="account">Account</string>
+    <string name="logout">Logout</string>
+
+    <!-- Navigation Header -->
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="admin_email">admin@example.com</string>
+    <string name="admin_icon">Admin Icon</string>
+
+    <!-- Empty States -->
+    <string name="no_pending_approvals">No pending approvals</string>
+    <string name="no_pending_loans">No pending loan applications</string>
+    <string name="no_customers">No customers found</string>
+
+
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="user_icon">User Icon</string>
+    <string name="no_pending_loan_requests">No pending loan requests</string>
+
+
+    <string name="nav_header_desc">User profile icon</string>
+    <!-- For better accessibility, you might want: -->
+    <string name="nav_header_desc_account">Navigate to account settings</string>
+
+
+</resources>

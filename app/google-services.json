@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "21439334778",
+    "firebase_url": "https://demobankingapp321-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "demobankingapp321",
+    "storage_bucket": "demobankingapp321.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21439334778:android:94b81af15cda255cc7aec3",
+        "android_client_info": {
+          "package_name": "com.izak.demobankingapp20260118"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeR6rAIkkQJMnWOhT-W0ieMJ5IKpfLjig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

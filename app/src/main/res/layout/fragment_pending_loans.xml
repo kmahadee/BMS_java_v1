@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPendingLoans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+    <TextView
+        android:id="@+id/emptyViewLoans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_pending_loan_requests"
+        android:textSize="16sp"
+        android:textColor="#757575"
+        android:visibility="gone"
+        android:drawablePadding="8dp"
+        android:gravity="center"
+        app:drawableTint="#757575"
+        app:drawableTopCompat="@android:drawable/ic_dialog_info" />
+
+</RelativeLayout>

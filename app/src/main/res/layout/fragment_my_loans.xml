@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Progress Bar -->
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:trackColor="@android:color/transparent" />
+
+    <!-- Loans RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewLoans"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/progressBar"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        android:visibility="visible" />
+
+    <!-- Empty State View -->
+    <LinearLayout
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/ic_baseline_money_off_24"
+            app:tint="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/emptyTitleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="No Loans Found"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/emptyMessageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You haven't applied for any loans yet."
+            android:textColor="@android:color/darker_gray"
+            android:textSize="16sp"
+            android:textAlignment="center" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Request Loan"
+            android:textAllCaps="false"
+            app:icon="@drawable/ic_baseline_add_24"
+            app:iconPadding="8dp"
+            app:iconTint="@android:color/white"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:onClick="onRequestLoanClick" />
+
+    </LinearLayout>
+
+</RelativeLayout>
